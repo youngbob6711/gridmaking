@@ -1,0 +1,37 @@
+.card 
+{
+    margin: 20px;
+    border: 0px solid rgb(148, 38, 38);
+    transition: transform 100ms ease-in;
+    box-shadow: 5px  20px 19px 2px rgba(173, 105, 16, 0.349);
+    overflow: hidden;
+    border-radius: 13px;
+    cursor: pointer;
+    width: 300px;
+}
+.card:hover {
+    transform: scale(1.09);
+}
+.card > img{
+    object-fit: fill;
+    width: 100px;
+    min-height: 290px;
+    min-width: 300px;
+}
+
+.cardtexts{
+    margin-top: -18px;
+    padding: 6px;
+    padding-top: 3px;
+    border: 0px solid rgb(129, 84, 17);
+    border-radius: 11px;
+    }
+.cardtexts > h2 {
+    font-size: 24px;
+    font-weight: 600px;
+}
+.cardtexts > h3 {
+    font-size: 15px;
+    margin-bottom: 9px;
+    font-weight: 650; 
+}    
